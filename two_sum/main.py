@@ -9,4 +9,10 @@ class Solution:
 
 
 s = Solution()
-print(s.twoSum([0,0,3,4], 4))
+n = [
+    {"nums":[2,7,11,15], "target":9},
+    {"nums":[3,2,4], "target":6},
+    {"nums":[3,3], "target":6}
+]
+for i in n :
+    print(f"the two sum of {i["nums"]} with target {i["target"]} is {s.twoSum(i["nums"],i["target"])}")
