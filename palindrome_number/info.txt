@@ -1,10 +1,8 @@
-9. Palindrome Number
+Palindrome Number
 
 
 
-Given an integer x, return true if x is a
-
-, and false otherwise.
+Given an integer x, return true if x is a, and false otherwise.
 
  
 
